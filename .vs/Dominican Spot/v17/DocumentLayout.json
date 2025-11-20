@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Desktop\\Dominican Spot\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|c:\\users\\angel\\desktop\\dominican spot\\assets\\scripts\\zonatutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonatutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Desktop\\Dominican Spot\\assets\\scripts\\moverpersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moverpersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Desktop\\Dominican Spot\\assets\\scripts\\itemcuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemcuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Desktop\\Dominican Spot\\assets\\scripts\\munecopractica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEA5BD9-D8AB-1192-B581-5F0EC02412E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\munecopractica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "moverPersonaje.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\moverPersonaje.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\moverPersonaje.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\moverPersonaje.cs",
+              "RelativeToolTip": "Assets\\scripts\\moverPersonaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T03:40:30.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZonaTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\ZonaTutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ZonaTutorial.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\ZonaTutorial.cs",
+              "RelativeToolTip": "Assets\\scripts\\ZonaTutorial.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAmwP8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T03:01:42.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\TutorialManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:37:40.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MunecoPractica.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\MunecoPractica.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MunecoPractica.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\MunecoPractica.cs",
+              "RelativeToolTip": "Assets\\scripts\\MunecoPractica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:48:50.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemCuracion.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\ItemCuracion.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ItemCuracion.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\Dominican Spot\\Assets\\scripts\\ItemCuracion.cs",
+              "RelativeToolTip": "Assets\\scripts\\ItemCuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T23:00:18.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

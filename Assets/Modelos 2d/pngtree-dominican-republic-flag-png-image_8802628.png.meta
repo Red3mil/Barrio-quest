@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 4ad4358f849c8644f917357485459479
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6004437263760602293
+    second: pngtree-dominican-republic-flag-png-image_8802628_0
+  - first:
+      213: -3933182744468695785
+    second: pngtree-dominican-republic-flag-png-image_8802628_1
+  - first:
+      213: 2349146127781244651
+    second: pngtree-dominican-republic-flag-png-image_8802628_2
+  - first:
+      213: -3365834534478525977
+    second: pngtree-dominican-republic-flag-png-image_8802628_3
+  - first:
+      213: -7422210107752901551
+    second: pngtree-dominican-republic-flag-png-image_8802628_4
+  - first:
+      213: 3373072855728114447
+    second: pngtree-dominican-republic-flag-png-image_8802628_5
+  - first:
+      213: 5622416653407058273
+    second: pngtree-dominican-republic-flag-png-image_8802628_6
+  - first:
+      213: 7317233592507366296
+    second: pngtree-dominican-republic-flag-png-image_8802628_7
+  - first:
+      213: -8246266890153819573
+    second: pngtree-dominican-republic-flag-png-image_8802628_8
+  - first:
+      213: -2173898260167283611
+    second: pngtree-dominican-republic-flag-png-image_8802628_9
+  - first:
+      213: 343784005572185902
+    second: pngtree-dominican-republic-flag-png-image_8802628_10
+  - first:
+      213: -1570584996776848794
+    second: pngtree-dominican-republic-flag-png-image_8802628_11
+  - first:
+      213: 597644989992331575
+    second: pngtree-dominican-republic-flag-png-image_8802628_12
+  - first:
+      213: -4780886113043501556
+    second: pngtree-dominican-republic-flag-png-image_8802628_13
+  - first:
+      213: 8554305341341157352
+    second: pngtree-dominican-republic-flag-png-image_8802628_14
+  - first:
+      213: 1905530262438692258
+    second: pngtree-dominican-republic-flag-png-image_8802628_15
+  - first:
+      213: -1056878213253991132
+    second: pngtree-dominican-republic-flag-png-image_8802628_16
+  - first:
+      213: 2932261628142876970
+    second: pngtree-dominican-republic-flag-png-image_8802628_17
+  - first:
+      213: -4826371910948989909
+    second: pngtree-dominican-republic-flag-png-image_8802628_18
+  - first:
+      213: -6791985811112855699
+    second: pngtree-dominican-republic-flag-png-image_8802628_19
+  - first:
+      213: 1899508531726648645
+    second: pngtree-dominican-republic-flag-png-image_8802628_20
+  - first:
+      213: -3924037040155602126
+    second: pngtree-dominican-republic-flag-png-image_8802628_21
+  - first:
+      213: -7766875067101936694
+    second: pngtree-dominican-republic-flag-png-image_8802628_22
+  - first:
+      213: 1207583401019163941
+    second: pngtree-dominican-republic-flag-png-image_8802628_23
+  - first:
+      213: -3230071310553951776
+    second: pngtree-dominican-republic-flag-png-image_8802628_24
+  - first:
+      213: -5940931467172102841
+    second: pngtree-dominican-republic-flag-png-image_8802628_25
+  - first:
+      213: -3147335839020403525
+    second: pngtree-dominican-republic-flag-png-image_8802628_26
+  - first:
+      213: 9043781772832564556
+    second: pngtree-dominican-republic-flag-png-image_8802628_27
+  - first:
+      213: 592316766232618295
+    second: pngtree-dominican-republic-flag-png-image_8802628_28
+  - first:
+      213: 8986774542501663254
+    second: pngtree-dominican-republic-flag-png-image_8802628_29
+  - first:
+      213: -8482244860683550610
+    second: pngtree-dominican-republic-flag-png-image_8802628_30
+  - first:
+      213: -1175475837658759644
+    second: pngtree-dominican-republic-flag-png-image_8802628_31
+  - first:
+      213: -7214962689395305715
+    second: pngtree-dominican-republic-flag-png-image_8802628_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 946
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4b196e0eb045350800000000000000
+      internalID: 6004437263760602293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1065
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7155f3ff1278a69c0800000000000000
+      internalID: -3933182744468695785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1090
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea2e7f4f7d99020800000000000000
+      internalID: 2349146127781244651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 946
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e94aa7e2572a41d0800000000000000
+      internalID: -3365834534478525977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1065
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15413174b330ff890800000000000000
+      internalID: -7422210107752901551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_5
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1090
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bcf2714ef8fce20800000000000000
+      internalID: 3373072855728114447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 13
+        width: 675
+        height: 1054
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169719d4826d60e40800000000000000
+      internalID: 5622416653407058273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1045
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf4fb1f290c8560800000000000000
+      internalID: 7317233592507366296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_8
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1008
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42015934ff5f8d80800000000000000
+      internalID: -8246266890153819573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1045
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca3e8dc03c4d1e0800000000000000
+      internalID: -2173898260167283611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_10
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 947
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f479b4bbd55c400800000000000000
+      internalID: 343784005572185902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 978
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662de894449243ae0800000000000000
+      internalID: -1570584996776848794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 786
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e842b3f24b4800800000000000000
+      internalID: 597644989992331575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 811
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ea1701961e6adb0800000000000000
+      internalID: -4780886113043501556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 614
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7cdd2a26ff6b670800000000000000
+      internalID: 8554305341341157352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 728
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a54a618dadc17a10800000000000000
+      internalID: 1905530262438692258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 766
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42575285dd63551f0800000000000000
+      internalID: -1056878213253991132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 668
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29f6fd3a6c71b820800000000000000
+      internalID: 2932261628142876970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 699
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2456f57158450db0800000000000000
+      internalID: -4826371910948989909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 345
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67ff19e3e40eb1a0800000000000000
+      internalID: -6791985811112855699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_20
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 464
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545046112f86c5a10800000000000000
+      internalID: 1899508531726648645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_21
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 489
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233dc083a150b89c0800000000000000
+      internalID: -3924037040155602126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_22
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 407
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac30d82f644863490800000000000000
+      internalID: -7766875067101936694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_23
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 444
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525c76684b232c010800000000000000
+      internalID: 1207583401019163941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_24
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 346
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e15047b14b7c23d0800000000000000
+      internalID: -3230071310553951776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 377
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d34489e429d8da0800000000000000
+      internalID: -5940931467172102841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 185
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4355ecaba6254d0800000000000000
+      internalID: -3147335839020403525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 210
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4566db3b97f18d70800000000000000
+      internalID: 9043781772832564556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_28
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 13
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735adcde5f4583800800000000000000
+      internalID: 592316766232618295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 127
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612d55a15df67bc70800000000000000
+      internalID: 8986774542501663254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 165
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6003157d33094a80800000000000000
+      internalID: -8482244860683550610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7b4e14fedfafe0800000000000000
+      internalID: -1175475837658759644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-dominican-republic-flag-png-image_8802628_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0355e619ad4fdb90800000000000000
+      internalID: -7214962689395305715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-dominican-republic-flag-png-image_8802628_0: 6004437263760602293
+      pngtree-dominican-republic-flag-png-image_8802628_1: -3933182744468695785
+      pngtree-dominican-republic-flag-png-image_8802628_10: 343784005572185902
+      pngtree-dominican-republic-flag-png-image_8802628_11: -1570584996776848794
+      pngtree-dominican-republic-flag-png-image_8802628_12: 597644989992331575
+      pngtree-dominican-republic-flag-png-image_8802628_13: -4780886113043501556
+      pngtree-dominican-republic-flag-png-image_8802628_14: 8554305341341157352
+      pngtree-dominican-republic-flag-png-image_8802628_15: 1905530262438692258
+      pngtree-dominican-republic-flag-png-image_8802628_16: -1056878213253991132
+      pngtree-dominican-republic-flag-png-image_8802628_17: 2932261628142876970
+      pngtree-dominican-republic-flag-png-image_8802628_18: -4826371910948989909
+      pngtree-dominican-republic-flag-png-image_8802628_19: -6791985811112855699
+      pngtree-dominican-republic-flag-png-image_8802628_2: 2349146127781244651
+      pngtree-dominican-republic-flag-png-image_8802628_20: 1899508531726648645
+      pngtree-dominican-republic-flag-png-image_8802628_21: -3924037040155602126
+      pngtree-dominican-republic-flag-png-image_8802628_22: -7766875067101936694
+      pngtree-dominican-republic-flag-png-image_8802628_23: 1207583401019163941
+      pngtree-dominican-republic-flag-png-image_8802628_24: -3230071310553951776
+      pngtree-dominican-republic-flag-png-image_8802628_25: -5940931467172102841
+      pngtree-dominican-republic-flag-png-image_8802628_26: -3147335839020403525
+      pngtree-dominican-republic-flag-png-image_8802628_27: 9043781772832564556
+      pngtree-dominican-republic-flag-png-image_8802628_28: 592316766232618295
+      pngtree-dominican-republic-flag-png-image_8802628_29: 8986774542501663254
+      pngtree-dominican-republic-flag-png-image_8802628_3: -3365834534478525977
+      pngtree-dominican-republic-flag-png-image_8802628_30: -8482244860683550610
+      pngtree-dominican-republic-flag-png-image_8802628_31: -1175475837658759644
+      pngtree-dominican-republic-flag-png-image_8802628_32: -7214962689395305715
+      pngtree-dominican-republic-flag-png-image_8802628_4: -7422210107752901551
+      pngtree-dominican-republic-flag-png-image_8802628_5: 3373072855728114447
+      pngtree-dominican-republic-flag-png-image_8802628_6: 5622416653407058273
+      pngtree-dominican-republic-flag-png-image_8802628_7: 7317233592507366296
+      pngtree-dominican-republic-flag-png-image_8802628_8: -8246266890153819573
+      pngtree-dominican-republic-flag-png-image_8802628_9: -2173898260167283611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
