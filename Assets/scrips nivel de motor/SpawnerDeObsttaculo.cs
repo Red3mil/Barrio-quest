@@ -3,11 +3,11 @@ using System.Collections;
 public class SpawnerDeObsttaculo : MonoBehaviour
 {
     [Header("Obstáculos")]
-    public GameObject[] obstaculos;   // Lista de obstáculos
+    public GameObject[] obstaculos;
 
     [Header("Aviso antes del spawn")]
-    public GameObject avisoPrefab;    // Prefab del aviso
-    public float tiempoAviso = 1f;    // Tiempo antes del spawn real
+    public GameObject avisoPrefab;
+    public float tiempoAviso = 1f;
 
     [Header("Tiempo entre spawns")]
     public float tiempoMin = 1.5f;
@@ -16,9 +16,19 @@ public class SpawnerDeObsttaculo : MonoBehaviour
     [Header("Variación de aparición")]
     public Vector2 rangoY = new Vector2(-2f, 2f);
 
-    private void Start()
+    private Coroutine rutinaSpawn;
+
+    private void OnEnable()
     {
-        StartCoroutine(SpawnLoop());
+        // Cuando el spawner se active, iniciar la corrutina
+        rutinaSpawn = StartCoroutine(SpawnLoop());
+    }
+
+    private void OnDisable()
+    {
+        // Cuando se desactive, detener corrutina para evitar errores
+        if (rutinaSpawn != null)
+            StopCoroutine(rutinaSpawn);
     }
 
     IEnumerator SpawnLoop()
@@ -39,7 +49,7 @@ public class SpawnerDeObsttaculo : MonoBehaviour
             // Esperar antes del spawn real
             yield return new WaitForSeconds(tiempoAviso);
 
-            // Elegir obstáculo (ahora sí se puede repetir)
+            // Elegir obstáculo
             int index = Random.Range(0, obstaculos.Length);
 
             // Instanciar obstáculo

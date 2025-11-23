@@ -4,7 +4,9 @@ using UnityEngine.UI;
 
 public class barradevida : MonoBehaviour
 {
+    [Header("Configuracion_UI")]
     public Slider sliderVida;
+    [Header("Personaje")]
     public moverPersonaje jugador;
     private Image fillImage;
 

@@ -59,4 +59,11 @@ public class PersonajeEnMotor : MonoBehaviour
         if (particulasConstantes != null)
             particulasConstantes.Stop();
     }
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Obstaculo"))
+        {
+            RecibirDanio(1); 
+        }
+    }
 }
