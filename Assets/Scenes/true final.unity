@@ -119,6 +119,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &245173011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 245173013}
+  - component: {fileID: 245173012}
+  m_Layer: 0
+  m_Name: TransitionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &245173012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245173011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61430b0086307cc4da3ccc8d39ae88da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionTemplate: {fileID: 5276914992623515724, guid: 616d511151a6c554caddf1c754e4f91d, type: 3}
+--- !u!4 &245173013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245173011}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 913.26465, y: 338.45184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &363443287
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +452,7 @@ MonoBehaviour:
   velocidad: 5
   objetivo: {fileID: 1432943568}
   nombreEscena: final
+  transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!1 &774541191
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +934,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1099318190}
   - component: {fileID: 1099318189}
-  - component: {fileID: 1099318188}
   - component: {fileID: 1099318187}
   m_Layer: 0
   m_Name: ColmadoLupitaEstructura - 128x128_0
@@ -943,19 +988,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.37680054, y: 0.79}
   m_EdgeRadius: 0
---- !u!114 &1099318188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099318186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da80f01b47bd3c74cbe18ed46a5e9c52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nombreEscena: final
 --- !u!212 &1099318189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1821,3 +1853,4 @@ SceneRoots:
   - {fileID: 437428302}
   - {fileID: 363443289}
   - {fileID: 1099822258}
+  - {fileID: 245173013}
