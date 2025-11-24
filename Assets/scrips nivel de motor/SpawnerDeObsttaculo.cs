@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 public class SpawnerDeObsttaculo : MonoBehaviour
 {
     [Header("Obstáculos")]
@@ -18,44 +20,64 @@ public class SpawnerDeObsttaculo : MonoBehaviour
 
     private Coroutine rutinaSpawn;
 
+    // ⭐ Lista de avisos generados
+    private List<GameObject> avisosActivos = new List<GameObject>();
+
     private void OnEnable()
     {
-        // Cuando el spawner se active, iniciar la corrutina
         rutinaSpawn = StartCoroutine(SpawnLoop());
     }
 
     private void OnDisable()
     {
-        // Cuando se desactive, detener corrutina para evitar errores
+        // Detener spawn
         if (rutinaSpawn != null)
             StopCoroutine(rutinaSpawn);
+
+        // ⭐ Destruir todos los avisos que quedaron vivos
+        LimpiarAvisos();
+    }
+
+    private void OnDestroy()
+    {
+        // Por si el objeto es destruido directamente
+        LimpiarAvisos();
+    }
+
+    private void LimpiarAvisos()
+    {
+        foreach (GameObject a in avisosActivos)
+        {
+            if (a != null)
+                Destroy(a);
+        }
+
+        avisosActivos.Clear();
     }
 
     IEnumerator SpawnLoop()
     {
         while (true)
         {
-            // Tiempo aleatorio entre spawns
             float tiempo = Random.Range(tiempoMin, tiempoMax);
             yield return new WaitForSeconds(tiempo);
 
-            // Posición donde aparecerá el obstáculo
             Vector3 spawnPos = transform.position;
             spawnPos.y += Random.Range(rangoY.x, rangoY.y);
 
-            // Crear aviso visual
+            // Crear aviso
             GameObject aviso = Instantiate(avisoPrefab, spawnPos, Quaternion.identity);
 
-            // Esperar antes del spawn real
+            // Guardarlo en lista para poder borrarlo si el spawner se destruye
+            avisosActivos.Add(aviso);
+
             yield return new WaitForSeconds(tiempoAviso);
 
-            // Elegir obstáculo
             int index = Random.Range(0, obstaculos.Length);
-
-            // Instanciar obstáculo
             Instantiate(obstaculos[index], spawnPos, Quaternion.identity);
 
-            // Eliminar aviso
+            // Remover aviso de la lista y destruirlo
+            avisosActivos.Remove(aviso);
             Destroy(aviso);
         }
     }

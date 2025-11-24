@@ -1,4 +1,7 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class PersonajeEnMotor : MonoBehaviour
 {
@@ -14,11 +17,21 @@ public class PersonajeEnMotor : MonoBehaviour
     [Header("Partículas Constantes")]
     public ParticleSystem particulasConstantes;
 
+    [Header("Invencibilidad")]
+    public float duracionInvencible = 1.5f;     // tiempo total
+    public float velocidadParpadeo = 0.1f;      // velocidad del blink
+    private bool esInvencible = false;
+
     private Rigidbody2D rb;
+
+    private SpriteRenderer[] sprites;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        sprites = GetComponentsInChildren<SpriteRenderer>();
+
         rb.gravityScale = 0;
         rb.freezeRotation = true;
 
@@ -40,7 +53,12 @@ public class PersonajeEnMotor : MonoBehaviour
 
     public void RecibirDanio(int cantidad)
     {
+        if (esInvencible) return; 
+
         vidaActual -= cantidad;
+
+        StartCoroutine(InvencibilidadCorutina());
+
         if (vidaActual <= 0)
         {
             vidaActual = 0;
@@ -48,10 +66,16 @@ public class PersonajeEnMotor : MonoBehaviour
         }
     }
 
+    public void Curarse(int cantidad)
+    {
+        vidaActual = Mathf.Clamp(vidaActual + cantidad, 0, vidaMaxima);
+    }
+
     private void Morir()
     {
-        
         Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
 
     private void OnDisable()
@@ -59,11 +83,55 @@ public class PersonajeEnMotor : MonoBehaviour
         if (particulasConstantes != null)
             particulasConstantes.Stop();
     }
-     private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Obstaculo"))
         {
-            RecibirDanio(1); 
+            RecibirDanio(1);
+            Destroy(collision.gameObject);
+        }
+        if (collision.CompareTag("Curar"))
+        {
+            Curarse(3);
+            Destroy(collision.gameObject);
+        }
+    }
+
+    private IEnumerator InvencibilidadCorutina()
+    {
+        esInvencible = true;
+        float tiempo = 0f;
+
+        while (tiempo < duracionInvencible)
+        {
+            // Ocultar
+            CambiarAlpha(0f);
+            yield return new WaitForSeconds(velocidadParpadeo);
+
+            // Mostrar
+            CambiarAlpha(1f);
+            yield return new WaitForSeconds(velocidadParpadeo);
+
+            tiempo += velocidadParpadeo * 2;
+        }
+
+        // Asegurar visibilidad final
+        CambiarAlpha(1f);
+        esInvencible = false;
+    }
+
+    // ⭐ NEW: ajusta la transparencia de TODOS los SpriteRenderer
+    private void CambiarAlpha(float alpha)
+    {
+        foreach (var sr in sprites)
+        {
+            if (sr != null)
+            {
+                Color c = sr.color;
+                c.a = alpha;
+                sr.color = c;
+            }
         }
     }
 }
