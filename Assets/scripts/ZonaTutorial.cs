@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public enum TipoTutorial
 {
@@ -89,7 +88,7 @@ public class ZonaTutorial : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            IniciarTutorial();
+            StartCoroutine(EsperarTransicionAntesDeTutorial());
         }
     }
 
@@ -99,44 +98,31 @@ public class ZonaTutorial : MonoBehaviour
 
         if (npcMentor != null) npcMentor.SetActive(true);
         if (munecoAtaque != null && tipoTutorial == TipoTutorial.Atacar)
-        {
             munecoAtaque.SetActive(true);
-        }
 
         if (tipoTutorial == TipoTutorial.Curacion)
         {
             foreach (GameObject curacion in curaciones)
-            {
                 if (curacion != null) curacion.SetActive(true);
-            }
 
             if (jugador != null && jugador.vida > danoParaCuracion)
             {
                 jugador.vida -= danoParaCuracion;
                 vidaInicial = jugador.vida;
-                Debug.Log($"Vida del jugador reducida a: {jugador.vida}");
             }
             else if (jugador != null)
             {
                 vidaInicial = jugador.vida;
             }
         }
-        else if (tipoTutorial == TipoTutorial.Curacion && jugador != null)
-        {
-            vidaInicial = jugador.vida;
-        }
 
         if (camaraDescenso != null)
-        {
             camaraDescenso.BloquearEnPosicion(Camera.main.transform.position);
-        }
 
         CrearMuros();
 
         if (tutorialManager != null)
-        {
             tutorialManager.MostrarDialogo(textoTutorial);
-        }
     }
 
     private void CrearMuros()
@@ -162,11 +148,6 @@ public class ZonaTutorial : MonoBehaviour
 
         posX = posicionCamara.x + (anchoCamera / 2f) + (anchoMuro / 2f);
         muroDerecho.transform.position = new Vector3(posX, posicionCamara.y, 0);
-
-        muroIzquierdo.layer = LayerMask.NameToLayer("Default");
-        muroDerecho.layer = LayerMask.NameToLayer("Default");
-
-        Debug.Log($"Muros creados en posición de cámara: {posicionCamara}");
     }
 
     private void VerificarMovimiento()
@@ -174,40 +155,28 @@ public class ZonaTutorial : MonoBehaviour
         if (jugador == null) return;
 
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
-        {
             seMovio = true;
-        }
 
         if (seMovio)
-        {
             CompletarTutorial();
-        }
     }
 
     private void VerificarDash()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
             hizoDash = true;
-        }
 
         if (hizoDash)
-        {
             CompletarTutorial();
-        }
     }
 
     private void VerificarAtaque()
     {
         if (Input.GetKeyDown(KeyCode.C))
-        {
             hizoAtaque = true;
-        }
 
         if (hizoAtaque)
-        {
             CompletarTutorial();
-        }
     }
 
     private void VerificarCuracion()
@@ -215,9 +184,7 @@ public class ZonaTutorial : MonoBehaviour
         if (jugador == null) return;
 
         if (jugador.vida > vidaInicial)
-        {
             CompletarTutorial();
-        }
     }
 
     private void CompletarTutorial()
@@ -228,33 +195,26 @@ public class ZonaTutorial : MonoBehaviour
         {
             Animator animatorJugador = jugador.GetComponent<Animator>();
             if (animatorJugador != null)
-            {
                 animatorJugador.speed = 1;
-            }
         }
 
         if (muroIzquierdo != null) Destroy(muroIzquierdo);
         if (muroDerecho != null) Destroy(muroDerecho);
 
         if (camaraDescenso != null)
-        {
             camaraDescenso.SeguirJugador();
-        }
 
         if (desaparecerConEfecto)
-        {
             StartCoroutine(DesaparecerObjetosConEfecto());
-        }
         else
-        {
             DestruirObjetosInstantaneo();
-        }
 
         Debug.Log("Tutorial " + tipoTutorial + " completado!");
 
+        // ?? AQUI ES DONDE SE CAMBIA LA ESCENA CON TRANSICIÓN
         if (tipoTutorial == TipoTutorial.Curacion)
         {
-            tutorialManager.TransicionLentaCambioEscena("SampleScene", 2.0f);
+            tutorialManager.TransicionLentaCambioEscena("SampleScene", 0f);
         }
     }
 
@@ -264,8 +224,24 @@ public class ZonaTutorial : MonoBehaviour
         if (munecoAtaque != null) Destroy(munecoAtaque);
 
         foreach (GameObject curacion in curaciones)
-        {
             if (curacion != null) Destroy(curacion);
+    }
+
+    private IEnumerator EsperarTransicionAntesDeTutorial()
+    {
+        // Solo ejecutar si el tipo de tutorial es Movimiento
+        if (tipoTutorial == TipoTutorial.Movimiento)
+        {
+            // Espera 1.25 segundos para dejar que la transición IN termine
+            yield return new WaitForSeconds(1.25f);
+
+            IniciarTutorial();
+        }
+        else
+        {
+            // Si no es Movimiento, iniciar tutorial inmediatamente
+            IniciarTutorial();
+            yield break;
         }
     }
 
@@ -278,9 +254,7 @@ public class ZonaTutorial : MonoBehaviour
         if (munecoAtaque != null) objetosADesaparecer[index++] = munecoAtaque;
 
         foreach (GameObject curacion in curaciones)
-        {
             if (curacion != null) objetosADesaparecer[index++] = curacion;
-        }
 
         float tiempoTranscurrido = 0f;
 
@@ -307,9 +281,7 @@ public class ZonaTutorial : MonoBehaviour
         }
 
         foreach (GameObject obj in objetosADesaparecer)
-        {
             if (obj != null) Destroy(obj);
-        }
     }
 
     void OnDestroy()
