@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\cambiodeescenatrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cambiodeescenatrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\zonatutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonatutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\cargarescenaporindice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cargarescenaporindice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:15:11.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CambioDeEscenaTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CambioDeEscenaTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CambioDeEscenaTrigger.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CambioDeEscenaTrigger.cs",
+              "RelativeToolTip": "Assets\\scripts\\CambioDeEscenaTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:13:22.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZonaTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\ZonaTutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ZonaTutorial.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\ZonaTutorial.cs",
+              "RelativeToolTip": "Assets\\scripts\\ZonaTutorial.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAewMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:00:47.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\TutorialManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:59:12.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CargarEscenaPorIndice.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CargarEscenaPorIndice.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CargarEscenaPorIndice.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CargarEscenaPorIndice.cs",
+              "RelativeToolTip": "Assets\\scripts\\CargarEscenaPorIndice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:54:19.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

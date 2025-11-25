@@ -1,5 +1,5 @@
+using EasyTransition;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Cambio de escena")]
     public string nombreEscena;             // Nombre de la escena a cargar al tocar el trigger
+    public TransitionSettings transition;   // Transición a usar
 
     private Rigidbody2D rb;
 
@@ -38,10 +39,13 @@ public class PlayerController : MonoBehaviour
         // Verificar que el trigger tenga tag "TriggerScene"
         if (other.CompareTag("TriggerScene"))
         {
-            // Cambiar de escena
             if (!string.IsNullOrEmpty(nombreEscena))
             {
-                SceneManager.LoadScene(nombreEscena);
+                TransitionManager.Instance().Transition(
+                    nombreEscena,
+                    transition,
+                    0f
+                );
             }
             else
             {
