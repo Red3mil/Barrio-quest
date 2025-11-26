@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\textopresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textopresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\modelos 2d\\enemigos\\raidenboss\\raidenboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\modelos 2d\\enemigos\\raidenboss\\raidenboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\raidenboss\\raidenboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\textopresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textopresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\moverpersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\modelos 2d\\enemigos\\raidenboss\\proyectilboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\raidenboss\\proyectilboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\bosscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +58,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PopiController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T19:50:37.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RaidenBoss.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
+              "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAUwPgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:33:46.924Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MusicManager.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\MusicManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowE4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T18:09:04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "textoPresentacion.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\textoPresentacion.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\textoPresentacion.cs",
@@ -66,12 +108,11 @@
               "RelativeToolTip": "Assets\\scripts\\textoPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:14:17.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T17:14:17.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProyectilBoss.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\ProyectilBoss.cs",
               "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\ProyectilBoss.cs",
@@ -83,20 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RaidenBoss.cs",
-              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
-              "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
-              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
-              "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAUwPgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:33:46.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "moverPersonaje.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\moverPersonaje.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\moverPersonaje.cs",
@@ -108,19 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PopiController.cs",
-              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
-              "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
-              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
-              "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T19:50:37.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BossController.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\BossController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\BossController.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CambioDeEscenaTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CambioDeEscenaTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CambioDeEscenaTrigger.cs",
@@ -156,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ZonaTutorial.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\ZonaTutorial.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ZonaTutorial.cs",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TutorialManager.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TutorialManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\TutorialManager.cs",
@@ -180,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CargarEscenaPorIndice.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CargarEscenaPorIndice.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CargarEscenaPorIndice.cs",

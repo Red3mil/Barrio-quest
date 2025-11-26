@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Niveles/niveldemotor.unity
     guid: 1b4dd8cd12bf11c4cb2efe794603fa28
   - enabled: 1
+    path: Assets/Scenes/Niveles/Nivel3.unity
+    guid: 243b21b09c1b0e84eb2e8fce64c74f9b
+  - enabled: 1
     path: Assets/Scenes/fin 1.unity
     guid: 6fb89611e48403b438676ee3a61b2569
   - enabled: 1
