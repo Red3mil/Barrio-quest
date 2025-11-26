@@ -175,8 +175,9 @@ MonoBehaviour:
   detectionRadius: 30
   speed: 10
   vida: 3
+  rangoMinimoDistancia: 1.7
+  rangoAtaque: 2
   tiempoEntreAtaques: 1
-  rangoAtaque: 1.5
   muerto: 0
   fuerzaRebote: 0
 --- !u!50 &1089684018708522917
