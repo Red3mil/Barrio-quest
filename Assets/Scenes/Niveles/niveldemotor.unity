@@ -1681,6 +1681,7 @@ MonoBehaviour:
   - {fileID: 1936205337}
   - {fileID: 1339011754}
   - {fileID: 1725374645}
+  - {fileID: 1421651239}
   - {fileID: 168185958}
   tiempoPorSpawner: 17
   tiempoMuerto: 3
