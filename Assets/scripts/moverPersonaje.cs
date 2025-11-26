@@ -135,22 +135,33 @@ public class moverPersonaje : MonoBehaviour
         }
 
         Collider2D[] enemigosEnRango = Physics2D.OverlapCircleAll(transform.position, rangoAtaque, enemyLayer);
+
         foreach (Collider2D enemigo in enemigosEnRango)
         {
-            // Chequea primero si tiene script
+            // Buscar diferentes tipos de enemigos
             BossController enemigoScript = enemigo.GetComponent<BossController>();
+            PopiController popiScript = enemigo.GetComponent<PopiController>();  // NUEVA LÍNEA
+            RaidenBoss raidenBoss = enemigo.GetComponent<RaidenBoss>();
             AmetBoss jefeScript = enemigo.GetComponent<AmetBoss>();
-            MunecoPractica munecoScript = enemigo.GetComponent<MunecoPractica>(); // NUEVA LÍNEA
+            MunecoPractica munecoScript = enemigo.GetComponent<MunecoPractica>();
 
             if (enemigoScript != null)
             {
                 enemigoScript.RecibeDanio(Vector2.zero, danoAtaque);
             }
+            else if (popiScript != null)  // NUEVO BLOQUE
+            {
+                popiScript.RecibeDanio(Vector2.zero, danoAtaque);
+            }
+            else if (raidenBoss != null)  // NUEVO BLOQUE
+            {
+                raidenBoss.RecibeDanio(Vector2.zero, danoAtaque);
+            }
             else if (jefeScript != null)
             {
                 jefeScript.RecibeDanio(Vector2.zero, danoAtaque);
             }
-            else if (munecoScript != null) // NUEVO BLOQUE
+            else if (munecoScript != null)
             {
                 munecoScript.RecibeDanio(Vector2.zero, danoAtaque);
             }

@@ -9,6 +9,8 @@ TagManager:
   - TriggerScene
   - Obstaculo
   - Curar
+  - Wall
+  - Ground
   layers:
   - Default
   - TransparentFX

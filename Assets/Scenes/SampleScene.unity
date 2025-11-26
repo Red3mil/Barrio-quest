@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 27831302}
   m_Layer: 0
   m_Name: barrera
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3850,7 +3850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numeroStage: 1
-  totalStages: 3
+  totalStages: 4
   puntosSpawn:
   - {fileID: 1871704416}
   - {fileID: 2049926750}
@@ -8889,7 +8889,7 @@ GameObject:
   - component: {fileID: 867995086}
   m_Layer: 0
   m_Name: road&border_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14998,7 +14998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numeroStage: 2
-  totalStages: 3
+  totalStages: 4
   puntosSpawn:
   - {fileID: 1280139617}
   - {fileID: 2101445233}
@@ -19178,7 +19178,7 @@ GameObject:
   - component: {fileID: 2032038863}
   m_Layer: 0
   m_Name: road&border_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
