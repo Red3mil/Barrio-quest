@@ -12,23 +12,50 @@ EditorBuildSettings:
     path: Assets/Scenes/titulo.unity
     guid: 52a364986ebce584bb8d755fca71b21e
   - enabled: 1
-    path: Assets/Scenes/secuencia 1.unity
+    path: Assets/Scenes/SecuenciaNivel1/secuencia 1.unity
     guid: 305e94c7a7a88c24192d4bbfe6de628c
   - enabled: 1
-    path: Assets/Scenes/secuencia 2.unity
+    path: Assets/Scenes/SecuenciaNivel1/secuencia 2.unity
     guid: 820fdb7382071d144b1111f3cea8ccb9
   - enabled: 1
-    path: Assets/Scenes/secuencia 3.unity
+    path: Assets/Scenes/SecuenciaNivel1/secuencia 3.unity
     guid: 008d6245ce43c2a4bab208aaa97e6afc
   - enabled: 1
-    path: Assets/Scenes/secuencia 4.unity
+    path: Assets/Scenes/SecuenciaNivel1/secuencia 4.unity
     guid: c0e1ac5f9718dfc43aef54d296451df0
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/Niveles/Tutorial.unity
     guid: 9e8e5424a3be7c3429824b97b504f687
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Niveles/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 1.unity
+    guid: 95fd1d26a0e7de440b395e76ff3e2e26
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 2.unity
+    guid: dd8295d1fefb83e44a5e285be0c0ad77
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 3.unity
+    guid: 4f72a206551917346887631843a2d341
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 4.unity
+    guid: d6347340eee0fa148889b2d6d77465c4
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 5.unity
+    guid: 2a8a5d7c8fdf7f147899684af619e8ff
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 6.unity
+    guid: e02299adaf864114988e88ee45aa02d4
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 7.unity
+    guid: 8adde6cd21dd6fd41b770c0fb9b89a6b
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 8.unity
+    guid: 90e6e972f84ba9e4fa9e492ab020a21c
+  - enabled: 1
+    path: Assets/Scenes/Niveles/niveldemotor.unity
+    guid: 1b4dd8cd12bf11c4cb2efe794603fa28
   - enabled: 1
     path: Assets/Scenes/fin 1.unity
     guid: 6fb89611e48403b438676ee3a61b2569
