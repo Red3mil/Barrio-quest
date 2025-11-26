@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moverpersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\modelos 2d\\enemigos\\raidenboss\\proyectilboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\modelos 2d\\enemigos\\raidenboss\\proyectilboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\raidenboss\\proyectilboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\ProyectilBoss.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:50:33.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T22:50:33.03Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
               "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
               "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\RaidenBOSS\\RaidenBoss.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwKsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAUwPgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T22:33:46.924Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Assets\\scripts\\moverPersonaje.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAIwJ0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T20:37:27.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T20:37:27.349Z"
             },
             {
               "$type": "Document",
