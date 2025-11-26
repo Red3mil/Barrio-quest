@@ -173,10 +173,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   detectionRadius: 30
-  speed: 10
-  vida: 3
+  speed: 20
+  vida: 6
+  rangoMinimoDistancia: 1.7
+  rangoAtaque: 2
+  rangoMaximoAcercamiento: 4
   tiempoEntreAtaques: 1.5
-  rangoAtaque: 1.5
+  nombreAnimacionMuerte: PopiBlancoDeath
   muerto: 0
   fuerzaRebote: 0
 --- !u!50 &1064417788735039187

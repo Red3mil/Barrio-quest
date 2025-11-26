@@ -8,9 +8,11 @@ public class PopiController : MonoBehaviour
     public float speed = 2.0f;
     public int vida = 3;
 
-    [Header("Ataque")]
-    public float tiempoEntreAtaques = 1.5f;
+    [Header("Rangos de Ataque")]
+    public float rangoMinimoDistancia = 1.0f; // Distancia mínima que mantiene del jugador (no se acerca más)
     public float rangoAtaque = 1.5f;
+    public float rangoMaximoAcercamiento = 2.0f; // Hasta dónde se acerca antes de atacar
+    public float tiempoEntreAtaques = 1.5f;
 
     [Header("Animación")]
     public string nombreAnimacionMuerte = "PopiBlancoDeath"; // Configurable desde el Inspector
@@ -95,7 +97,10 @@ public class PopiController : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distanceToPlayer < detectionRadius && playerVivo)
+        // Solo moverse si está dentro del rango de detección
+        // Y si está más lejos que la distancia mínima permitida
+        // Y si está más lejos que el rango máximo de acercamiento (para no pegarse demasiado)
+        if (distanceToPlayer < detectionRadius && distanceToPlayer > rangoMinimoDistancia && playerVivo && !atacando)
         {
             Vector2 direction = (player.position - transform.position).normalized;
 
@@ -120,7 +125,7 @@ public class PopiController : MonoBehaviour
     {
         float distancia = Vector2.Distance(transform.position, player.position);
 
-        if (distancia <= rangoAtaque && Time.time >= ultimoAtaqueTiempo + tiempoEntreAtaques && playerVivo && !recibiendoDanio)
+        if (distancia <= rangoAtaque && Time.time >= ultimoAtaqueTiempo + tiempoEntreAtaques && playerVivo && !recibiendoDanio && !atacando)
         {
             animator.SetTrigger("atacar");
             atacando = true;
@@ -284,7 +289,14 @@ public class PopiController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
+
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, rangoMinimoDistancia);
+
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, rangoAtaque);
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, rangoMaximoAcercamiento);
     }
 }
