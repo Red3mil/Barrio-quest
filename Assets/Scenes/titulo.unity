@@ -706,8 +706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c38e2f60fd621e547befe590233698c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: 
-  transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
+  nombreEscena: Nivel3
+  transition: {fileID: 11400000, guid: b0126e1e0c6c2a04895d564bd230dfb9, type: 2}
   sonidoClick: {fileID: 161132135}
 --- !u!1 &164051959
 GameObject:
@@ -4362,7 +4362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nombreEscena: secuencia 1
-  transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
+  transition: {fileID: 11400000, guid: b0126e1e0c6c2a04895d564bd230dfb9, type: 2}
   sonidoClick: {fileID: 1256095367}
 --- !u!1 &1262334843
 GameObject:
@@ -5085,8 +5085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c38e2f60fd621e547befe590233698c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: 
-  transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
+  nombreEscena: Nivel2-Secuencia 1
+  transition: {fileID: 11400000, guid: b0126e1e0c6c2a04895d564bd230dfb9, type: 2}
   sonidoClick: {fileID: 1403471694}
 --- !u!1 &1450560489
 GameObject:

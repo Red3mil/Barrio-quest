@@ -13,8 +13,6 @@ public class CambioDeEscenaBoton : MonoBehaviour
         if (sonidoClick != null)
             sonidoClick.Play();
 
-        SaveSystem.GuardarUltimaEscena(nombreEscena);
-
         TransitionManager.Instance().Transition(
             nombreEscena,
             transition,
