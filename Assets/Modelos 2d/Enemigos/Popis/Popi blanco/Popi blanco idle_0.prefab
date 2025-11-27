@@ -174,7 +174,7 @@ MonoBehaviour:
   player: {fileID: 0}
   detectionRadius: 30
   speed: 20
-  vida: 6
+  vida: 5
   rangoMinimoDistancia: 1.7
   rangoAtaque: 2
   rangoMaximoAcercamiento: 4

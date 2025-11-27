@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1084336494}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: ReiniciarEscena
         m_Mode: 1
@@ -5279,7 +5279,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1084336494}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: CerrarJuego
         m_Mode: 1
@@ -5778,7 +5778,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1084336494}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: IrAlMenuPrincipal
         m_Mode: 1
