@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e228d43fa5f744e83cfe37925b9b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indiceEscena: 22
+  indiceEscena: 25
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!4 &2074024588
 Transform:

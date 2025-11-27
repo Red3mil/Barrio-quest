@@ -185,7 +185,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.56, y: 2}
+  m_Size: {x: 6.06, y: 4.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -593,8 +593,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cc5f6fcc73424dd46936573844e109ba, type: 2}
-  m_sharedMaterial: {fileID: -5148950211759587793, guid: cc5f6fcc73424dd46936573844e109ba, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

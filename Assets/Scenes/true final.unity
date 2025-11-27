@@ -451,7 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   objetivo: {fileID: 1432943568}
-  nombreEscena: final
+  nombreEscena: Nivel2-Secuencia 1
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!1 &774541191
 GameObject:

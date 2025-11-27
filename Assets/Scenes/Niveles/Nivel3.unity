@@ -5876,7 +5876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da80f01b47bd3c74cbe18ed46a5e9c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: final
+  nombreEscena: Narrador
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!1 &1471501574
 GameObject:

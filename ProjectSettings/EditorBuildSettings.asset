@@ -27,6 +27,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Niveles/Tutorial.unity
     guid: 9e8e5424a3be7c3429824b97b504f687
   - enabled: 1
+    path: Assets/Scenes/Niveles/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/fin 1.unity
+    guid: 6fb89611e48403b438676ee3a61b2569
+  - enabled: 1
+    path: Assets/Scenes/fin 2.unity
+    guid: 33e1d438ff87edd44a20d4296081dab5
+  - enabled: 1
+    path: Assets/Scenes/true final.unity
+    guid: 42ec10cf05e8937409d1288b9b0c895b
+  - enabled: 1
     path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 1.unity
     guid: 95fd1d26a0e7de440b395e76ff3e2e26
   - enabled: 1
@@ -51,20 +63,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SecuenciaNivel2/Nivel2-Secuencia 8.unity
     guid: 90e6e972f84ba9e4fa9e492ab020a21c
   - enabled: 1
-    path: Assets/Scenes/Niveles/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/fin 1.unity
-    guid: 6fb89611e48403b438676ee3a61b2569
-  - enabled: 1
-    path: Assets/Scenes/fin 2.unity
-    guid: 33e1d438ff87edd44a20d4296081dab5
-  - enabled: 1
-    path: Assets/Scenes/true final.unity
-    guid: 42ec10cf05e8937409d1288b9b0c895b
-  - enabled: 1
     path: Assets/Scenes/Niveles/niveldemotor.unity
     guid: 1b4dd8cd12bf11c4cb2efe794603fa28
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel2/Nivel2-SecuenciaFinal 1.unity
+    guid: fc47a4ad55e5022409574affb494f16d
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel3/Nivel3-Secuencia 1.unity
+    guid: de40a5cd601b25b4c90d046312d42af3
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel3/Nivel3-Secuencia 2.unity
+    guid: 5da63aa3137dd994885338cba7d4f30f
   - enabled: 1
     path: Assets/Scenes/Niveles/Nivel3.unity
     guid: 243b21b09c1b0e84eb2e8fce64c74f9b
@@ -78,11 +87,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SecuenciaNivel3/Nivel3-SecuenciaFinal 2.unity
     guid: 51bb0376c7b95cc49bf96cc92c7297ad
   - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel3/Final Malo.unity
+    guid: 0bce2855e88e15743886c3a109ae1373
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaNivel3/Final Bueno.unity
+    guid: 46309e05a5e5dc140af377b0411d572e
+  - enabled: 1
     path: Assets/Scenes/final.unity
     guid: 9acb98da7a094a941bdfeb7c1f1e0e89
   - enabled: 1
-    path: Assets/Scenes/SecuenciaNivel3/Final Malo.unity
-    guid: 0bce2855e88e15743886c3a109ae1373
+    path: Assets/Scenes/final 2.unity
+    guid: 11c6c9b976174ae428178d4a48d357c8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

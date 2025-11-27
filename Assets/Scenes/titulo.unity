@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c38e2f60fd621e547befe590233698c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: Nivel3
+  nombreEscena: Nivel3-Secuencia 1
   transition: {fileID: 11400000, guid: b0126e1e0c6c2a04895d564bd230dfb9, type: 2}
   sonidoClick: {fileID: 161132135}
 --- !u!1 &164051959

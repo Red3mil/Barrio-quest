@@ -840,7 +840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078b8e5d6a619f3449e1cf7bbef0448f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indiceEscena: 24
+  indiceEscena: 29
   tiempoEspera: 1
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!1 &965224118
