@@ -205,15 +205,16 @@ MonoBehaviour:
     m_Bits: 128
   speed: 2.5
   detectionRadius: 40
-  stopRange: 1.1
+  rangoMinimoDistancia: 1.7
+  stopRange: 2
   vidaMaxima: 12
   vida: 12
   intervaloAtaque: 1.2
-  rangoAtaque1: 1.4
+  rangoAtaque1: 2
   danoAtaque1: 1
-  rangoAtaque2: 1.8
+  rangoAtaque2: 2.5
   danoAtaque2: 1
-  rangoAtaque3: 2.2
+  rangoAtaque3: 3
   danoAtaque3: 2
   dibujarGizmos: 1
   invulnerableTime: 0.5
@@ -231,15 +232,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8386507736848476503, guid: 88d8be6997eb3214eb8d92340450ec96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.102
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8386507736848476503, guid: 88d8be6997eb3214eb8d92340450ec96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.004
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8386507736848476503, guid: 88d8be6997eb3214eb8d92340450ec96, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8386507736848476503, guid: 88d8be6997eb3214eb8d92340450ec96, type: 3}
       propertyPath: m_LocalRotation.w

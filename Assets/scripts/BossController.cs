@@ -9,6 +9,7 @@ public class BossController : MonoBehaviour
     public int vida = 3;
 
     [Header("Ataque")]
+    public float rangoMinimoDistancia = 1.0f; // NUEVO: Distancia mínima que mantiene del jugador
     public float tiempoEntreAtaques = 1.5f;
     public float rangoAtaque = 1.5f;  // Distancia para atacar
 
@@ -85,7 +86,8 @@ public class BossController : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distanceToPlayer < detectionRadius && playerVivo && !muerto)
+        // ÚNICO CAMBIO: Agregado "&& distanceToPlayer > rangoMinimoDistancia"
+        if (distanceToPlayer < detectionRadius && distanceToPlayer > rangoMinimoDistancia && playerVivo && !muerto)
         {
             Vector2 direction = (player.position - transform.position).normalized;
 
@@ -218,8 +220,12 @@ public class BossController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
+
+        // NUEVO: Visualizar distancia mínima
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, rangoMinimoDistancia);
+
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, rangoAtaque);
     }
 }
-

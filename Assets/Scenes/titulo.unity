@@ -7610,7 +7610,7 @@ MonoBehaviour:
   botonNivel3: {fileID: 161132130}
   bloqueado2: {fileID: 261229281}
   bloqueado3: {fileID: 327082951}
-  tiempoParaActivar: 1
+  tiempoParaActivar: 0.5
 --- !u!4 &2093010448
 Transform:
   m_ObjectHideFlags: 0
