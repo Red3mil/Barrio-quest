@@ -16,6 +16,7 @@ public class AmetBoss : MonoBehaviour
     [Header("Movimiento")]
     public float speed = 2.5f;
     public float detectionRadius = 10f;
+    public float rangoMinimoDistancia = 0.8f; // NUEVO: Distancia mínima que mantiene del jugador
     public float stopRange = 1.1f;
 
     [Header("Vida y Daño")]
@@ -87,7 +88,8 @@ public class AmetBoss : MonoBehaviour
         // Solo moverse si no está atacando
         if (!atacando)
         {
-            if (dist <= detectionRadius && dist > stopRange)
+            // ÚNICO CAMBIO: Agregado "&& dist > rangoMinimoDistancia"
+            if (dist <= detectionRadius && dist > rangoMinimoDistancia && dist > stopRange)
                 moveDir = toPlayer.normalized;
 
             if (Time.time >= lastAttackTime + intervaloAtaque)
@@ -241,6 +243,10 @@ public class AmetBoss : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
+        // NUEVO: Visualizar distancia mínima
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, rangoMinimoDistancia);
+
         Vector3 p = attackPoint ? attackPoint.position : transform.position;
 
         Gizmos.color = Color.cyan;
@@ -253,4 +259,3 @@ public class AmetBoss : MonoBehaviour
         Gizmos.DrawWireSphere(p, rangoAtaque3);
     }
 }
-
