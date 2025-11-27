@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +14,9 @@ public class moverPersonaje : MonoBehaviour
     [Header("Vida")]
     public int vidaMaxima = 10;
     public int vida = 10;
+
+    [Header("UI Muerte")]
+    public GameObject canvasMuerte;
 
     [Header("Dash")]
     public float fuerzaDash = 8f;
@@ -33,10 +36,13 @@ public class moverPersonaje : MonoBehaviour
     public int danoAtaque = 1;
 
     [Header("Cámara")]
-    public CamaraShake camaraShake; // Arrastrar la cámara aquí desde el inspector
+    public CamaraShake camaraShake;
     public float duracionShake = 0.2f;
     public float intensidadShake = 0.1f;
 
+    [Header("Pausa")]   // ⭐ NUEVO
+    public GameObject canvasPausa;
+    private bool juegoPausado = false;
 
     private float escalaOriginalX;
     private Rigidbody2D rb;
@@ -66,10 +72,24 @@ public class moverPersonaje : MonoBehaviour
         rb.freezeRotation = true;
 
         enemyLayerNum = LayerMask.NameToLayer("Enemy");
+
+        if (canvasPausa != null)
+            canvasPausa.SetActive(false);
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!juegoPausado)
+                PausarJuego();
+            else
+                ReanudarJuego();
+        }
+
+        if (juegoPausado || muerto)
+            return;
+
         float inputHorizontal = Input.GetAxisRaw("Horizontal");
         float inputVertical = 0f;
         if (Input.GetKey(KeyCode.UpArrow)) inputVertical = 1f;
@@ -109,6 +129,7 @@ public class moverPersonaje : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (juegoPausado) return;
         if (recibiendoDanio || haciendoDash) return;
 
         Vector2 nuevaPos = rb.position + inputMovimiento * velocidad * Time.fixedDeltaTime;
@@ -118,6 +139,23 @@ public class moverPersonaje : MonoBehaviour
         rb.MovePosition(nuevaPos);
     }
 
+    private void PausarJuego()
+    {
+        Time.timeScale = 0f;
+        juegoPausado = true;
+
+        if (canvasPausa != null)
+            canvasPausa.SetActive(true);
+    }
+
+    private void ReanudarJuego()
+    {
+        Time.timeScale = 1f;
+        juegoPausado = false;
+
+        if (canvasPausa != null)
+            canvasPausa.SetActive(false);
+    }
     private void Atacar()
     {
         atacando = true;
@@ -138,33 +176,26 @@ public class moverPersonaje : MonoBehaviour
 
         foreach (Collider2D enemigo in enemigosEnRango)
         {
-            // Buscar diferentes tipos de enemigos
             BossController enemigoScript = enemigo.GetComponent<BossController>();
-            PopiController popiScript = enemigo.GetComponent<PopiController>();  // NUEVA LÍNEA
+            PopiController popiScript = enemigo.GetComponent<PopiController>();
             RaidenBoss raidenBoss = enemigo.GetComponent<RaidenBoss>();
             AmetBoss jefeScript = enemigo.GetComponent<AmetBoss>();
             MunecoPractica munecoScript = enemigo.GetComponent<MunecoPractica>();
 
             if (enemigoScript != null)
-            {
                 enemigoScript.RecibeDanio(Vector2.zero, danoAtaque);
-            }
-            else if (popiScript != null)  // NUEVO BLOQUE
-            {
+
+            else if (popiScript != null)
                 popiScript.RecibeDanio(Vector2.zero, danoAtaque);
-            }
-            else if (raidenBoss != null)  // NUEVO BLOQUE
-            {
+
+            else if (raidenBoss != null)
                 raidenBoss.RecibeDanio(Vector2.zero, danoAtaque);
-            }
+
             else if (jefeScript != null)
-            {
                 jefeScript.RecibeDanio(Vector2.zero, danoAtaque);
-            }
+
             else if (munecoScript != null)
-            {
                 munecoScript.RecibeDanio(Vector2.zero, danoAtaque);
-            }
         }
 
         StartCoroutine(ResetAtaque());
@@ -181,7 +212,6 @@ public class moverPersonaje : MonoBehaviour
         haciendoDash = true;
         animator.SetTrigger("rodar");
 
-        // Ignorar colisiones con enemigos mientras dashea
         Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayerNum, true);
 
         float direccion = transform.localScale.x > 0 ? 1 : -1;
@@ -223,8 +253,12 @@ public class moverPersonaje : MonoBehaviour
         if (vida <= 0)
         {
             muerto = true;
-            // Reinicia escena o puedes reemplazarlo por animación de muerte
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            // PAUSA POR MUERTE
+            Time.timeScale = 0f;
+            if (canvasMuerte != null)
+                canvasMuerte.SetActive(true);
+
             return;
         }
 
@@ -235,7 +269,7 @@ public class moverPersonaje : MonoBehaviour
     private IEnumerator BloqueoCortoMovimiento()
     {
         recibiendoDanio = true;
-        yield return new WaitForSeconds(0.2f); // Bloqueo breve
+        yield return new WaitForSeconds(0.2f);
         recibiendoDanio = false;
     }
 

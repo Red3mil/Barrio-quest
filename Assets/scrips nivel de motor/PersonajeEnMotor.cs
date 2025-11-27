@@ -10,26 +10,31 @@ public class PersonajeEnMotor : MonoBehaviour
     public float limiteSuperior = 5f;
     public float limiteInferior = -2f;
 
+     [Header("Pausa")]  
+    public GameObject canvasPausa;
+    private bool juegoPausado = false;
+
     [Header("Vida")]
     public int vidaMaxima = 10;
     public int vidaActual = 10;
+
+    [Header("UI Muerte")]
+    public GameObject canvasMuerte; // NUEVO
 
     [Header("Partículas Constantes")]
     public ParticleSystem particulasConstantes;
 
     [Header("Invencibilidad")]
-    public float duracionInvencible = 1.5f;     // tiempo total
-    public float velocidadParpadeo = 0.1f;      // velocidad del blink
+    public float duracionInvencible = 1.5f;
+    public float velocidadParpadeo = 0.1f;
     private bool esInvencible = false;
 
     private Rigidbody2D rb;
-
     private SpriteRenderer[] sprites;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
         sprites = GetComponentsInChildren<SpriteRenderer>();
 
         rb.gravityScale = 0;
@@ -43,6 +48,18 @@ public class PersonajeEnMotor : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!juegoPausado)
+                PausarJuego();
+            else
+                ReanudarJuego();
+        }
+        // ------------------------------------------------
+
+        // Si está pausado, no permitir control del jugador
+        if (juegoPausado)
+            return;
         float inputVertical = Input.GetAxisRaw("Vertical");
 
         Vector2 nuevaPos = rb.position + new Vector2(0, inputVertical * velocidad * Time.deltaTime);
@@ -53,7 +70,7 @@ public class PersonajeEnMotor : MonoBehaviour
 
     public void RecibirDanio(int cantidad)
     {
-        if (esInvencible) return; 
+        if (esInvencible) return;
 
         vidaActual -= cantidad;
 
@@ -73,9 +90,16 @@ public class PersonajeEnMotor : MonoBehaviour
 
     private void Morir()
     {
-        Destroy(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // PAUSAR JUEGO
+        Time.timeScale = 0f;
 
+        // MOSTRAR CANVAS DE MUERTE
+        if (canvasMuerte != null)
+            canvasMuerte.SetActive(true);
+
+        // Quitado:
+        // Destroy(gameObject);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnDisable()
@@ -105,23 +129,19 @@ public class PersonajeEnMotor : MonoBehaviour
 
         while (tiempo < duracionInvencible)
         {
-            // Ocultar
             CambiarAlpha(0f);
             yield return new WaitForSeconds(velocidadParpadeo);
 
-            // Mostrar
             CambiarAlpha(1f);
             yield return new WaitForSeconds(velocidadParpadeo);
 
             tiempo += velocidadParpadeo * 2;
         }
 
-        // Asegurar visibilidad final
         CambiarAlpha(1f);
         esInvencible = false;
     }
 
-    // ⭐ NEW: ajusta la transparencia de TODOS los SpriteRenderer
     private void CambiarAlpha(float alpha)
     {
         foreach (var sr in sprites)
@@ -133,5 +153,22 @@ public class PersonajeEnMotor : MonoBehaviour
                 sr.color = c;
             }
         }
+    }
+     private void PausarJuego()
+    {
+        Time.timeScale = 0f;
+        juegoPausado = true;
+
+        if (canvasPausa != null)
+            canvasPausa.SetActive(true);
+    }
+
+    private void ReanudarJuego()
+    {
+        Time.timeScale = 1f;
+        juegoPausado = false;
+
+        if (canvasPausa != null)
+            canvasPausa.SetActive(false);
     }
 }
