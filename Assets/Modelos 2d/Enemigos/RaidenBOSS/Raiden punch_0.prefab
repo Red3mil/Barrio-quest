@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   detectionRadius: 22
-  speed: 6
+  speed: 8
   vida: 8
   rangoAtaqueCuerpoACuerpo: 3
   rangoMinimoDistancia: 2

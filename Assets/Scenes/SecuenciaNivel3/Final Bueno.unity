@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indiceEscena: 30
-  tiempoEspera: 2
+  tiempoEspera: 3
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
 --- !u!4 &22168403
 Transform:
