@@ -79,7 +79,7 @@ public class zonadeCombate : MonoBehaviour
             GameObject enemigoPrefab = tiposEnemigos[Random.Range(0, tiposEnemigos.Length)];
             GameObject enemigo = Instantiate(enemigoPrefab, spawnPoint.position, Quaternion.identity);
             enemigosEnEscena.Add(enemigo);
-            yield return new WaitForSeconds(delaySpawn);
+            yield return new WaitForSecondsRealtime(delaySpawn); // <-- CAMBIO AQUÍ
         }
     }
 

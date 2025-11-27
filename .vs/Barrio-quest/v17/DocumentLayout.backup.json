@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\zonadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonadecombate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scrips nivel de motor\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips nivel de motor\\spawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\transicionportiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transicionportiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\popis\\popicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\scripts\\cambiodeescenaboton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cambiodeescenaboton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\scripts\\transicionportiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transicionportiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|c:\\users\\angel\\documents\\github\\barrio-quest\\assets\\modelos 2d\\enemigos\\nuevoboss\\ametboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\assets\\modelos 2d\\enemigos\\nuevoboss\\ametboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{111CBD11-5AEA-CE75-4CB5-6B9655B8AC04}|Assembly-CSharp.csproj|solutionrelative:assets\\modelos 2d\\enemigos\\nuevoboss\\ametboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zonadecombate.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\zonadecombate.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\zonadecombate.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\zonadecombate.cs",
+              "RelativeToolTip": "Assets\\scripts\\zonadecombate.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAtwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:38:13.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "spawnermanager.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scrips nivel de motor\\spawnermanager.cs",
+              "RelativeDocumentMoniker": "Assets\\scrips nivel de motor\\spawnermanager.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scrips nivel de motor\\spawnermanager.cs",
+              "RelativeToolTip": "Assets\\scrips nivel de motor\\spawnermanager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:36:16.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PopiController.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\Popis\\PopiController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:26:05.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\TutorialManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:59:47.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TransicionPorTiempo.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\TransicionPorTiempo.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\TransicionPorTiempo.cs",
@@ -59,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AmetBoss.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\Modelos 2d\\Enemigos\\NuevoBoss\\AmetBoss.cs",
               "RelativeDocumentMoniker": "Assets\\Modelos 2d\\Enemigos\\NuevoBoss\\AmetBoss.cs",
@@ -67,12 +135,11 @@
               "RelativeToolTip": "Assets\\Modelos 2d\\Enemigos\\NuevoBoss\\AmetBoss.cs",
               "ViewState": "AgIAAPoAAADADqkJxlsswAQBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T23:10:02.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T23:10:02.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "BossController.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\BossController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\BossController.cs",
@@ -84,20 +151,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CambioDeEscenaBoton.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CambioDeEscenaBoton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CambioDeEscenaBoton.cs",
               "ToolTip": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CambioDeEscenaBoton.cs",
               "RelativeToolTip": "Assets\\scripts\\CambioDeEscenaBoton.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T20:08:13.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T20:08:13.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SaveSystem.cs",
@@ -109,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DesbloquearNivel.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\DesbloquearNivel.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\DesbloquearNivel.cs",
@@ -121,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TransitionManager.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\EasyTransitions\\Scripts\\TransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\EasyTransitions\\Scripts\\TransitionManager.cs",
@@ -133,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CargarEscenaPorIndice.cs",
               "DocumentMoniker": "C:\\Users\\Angel\\Documents\\GitHub\\Barrio-quest\\Assets\\scripts\\CargarEscenaPorIndice.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CargarEscenaPorIndice.cs",

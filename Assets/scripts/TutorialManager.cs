@@ -56,14 +56,16 @@ public class TutorialManager : MonoBehaviour
     {
         tutorialActivo = true;
 
+        // ASEGURA que timeScale esté en 1 antes de pausar
+        Time.timeScale = 1f;
+        yield return null; // Espera un frame
+
         Time.timeScale = 0f;
 
         if (jugador != null)
             jugador.enabled = false;
-
         if (panelOscuro != null) panelOscuro.gameObject.SetActive(true);
         if (textoTutorial != null) textoTutorial.gameObject.SetActive(true);
-
         textoTutorial.text = texto;
 
         // FADE IN
@@ -91,6 +93,7 @@ public class TutorialManager : MonoBehaviour
         if (panelOscuro != null) panelOscuro.gameObject.SetActive(false);
         if (textoTutorial != null) textoTutorial.gameObject.SetActive(false);
 
+        // RESTAURA SIEMPRE
         Time.timeScale = 1f;
 
         if (jugador != null)
@@ -114,7 +117,12 @@ public class TutorialManager : MonoBehaviour
     // ?? NUEVO MÉTODO DE TRANSICIÓN
     public void TransicionLentaCambioEscena(string nombreEscena, float delay = 0f)
     {
+        // FUERZA timeScale a 1 antes de cambiar escena
         Time.timeScale = 1f;
+
+        // Asegura que el jugador esté habilitado
+        if (jugador != null)
+            jugador.enabled = true;
 
         TransitionManager.Instance().Transition(
             nombreEscena,
